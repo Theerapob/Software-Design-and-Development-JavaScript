@@ -178,11 +178,36 @@ let person = {
 
 ### บันทึกผลการทดลอง 2.1
 ```html
-[บันทึกโค้ด ที่นี่]
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viemport" content="width, initial-scale=1.0">
+    <title>Student Information</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <div id="student-info"></div>
+    <script src="LAB2.1.Js"></script>
+</body>
+</html>
+
+const studentId = "67030099";
+const studentName = "ธีรภพ พรหมวิหาร";
+let midtermscore = 65;
+let finalscore = 70;
+
+const studentInfo = {
+    id: studentId,
+    name: studentName,
+    major: "วิทยาการคอมพิวเตอร์",
+    gpa: 2.69
+};
+
+console.log(studentInfo);
 ```
 [รูปผลการทดลองที่ 2.1]
-
-
+![Capture5](https://github.com/user-attachments/assets/bfc08c55-febf-40ac-a35c-cfa57f7132a5)
 ### 2.2 การดำเนินการทางคณิตศาสตร์
 
 JavaScript มีตัวดำเนินการทางคณิตศาสตร์พื้นฐานดังนี้:
