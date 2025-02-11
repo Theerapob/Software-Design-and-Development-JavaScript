@@ -113,11 +113,10 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
 <script> document.getElementById('id ของ textbox').value</script>
 </body>
 </html>
-```
 function hello3(){
     alert('3.45 PM');
     }
-
+```
 [รูปผลการทดลองที่ 1]
 ![Capture](https://github.com/user-attachments/assets/b4255102-56e5-4759-904f-2969456d5aff)
 ![Capture2](https://github.com/user-attachments/assets/105f9891-6e10-41fb-942e-a581ba87b68c)
