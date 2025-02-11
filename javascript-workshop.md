@@ -71,10 +71,58 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
    - มีปุ่มเมื่อคลิกแล้วจะแสดงข้อความที่กรอกในช่องข้อความ
 ### บันทึกผลการทดลอง 
 ```html
-[บันทึกโค้ด ที่นี่]
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ทดลอง JavaScript</title>
+</head>
+<body>
+    <!-- Inline JavaScript -->
+    <button onclick="alert('ธีรภพ พรหมวิหาร')">ปุ่มเเสดงชื่อนักศึกษา</button>
+
+    <!-- ทดสอบ Internal JavaScript -->
+    <button id="btn2">เเสดงวันที่</button>
+
+    <!-- ทดสอบ External JavaScript -->
+    <button id="btn3" onclick="hello3();">เเสดงเวลาปัจจุบัน</button>
+
+    <!-- Internal JavaScript -->
+    <script>
+        document.getElementById('btn2').onclick = function() {
+            alert('2/11/2025');
+        };
+    </script>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+
+    <input type="text" id="textbox" placeholder="กรอกข้อความ">
+    <button onclick="showMassage()">เเสดงข้อความ</button>
+    <p id="result"></p>
+
+    <script>
+        function showMassage(){
+            var massage = document.getElementById('textbox').value;
+            document.getElementById('result').innerText = "ข้อความที่กรอก: " + massage;
+        }
+
+
+    </script>
+
+<script> document.getElementById('id ของ textbox').value</script>
+</body>
+</html>
 ```
+function hello3(){
+    alert('3.45 PM');
+    }
 [รูปผลการทดลองที่ 1]
-  
+![Capture](https://github.com/user-attachments/assets/b4255102-56e5-4759-904f-2969456d5aff)
+![Capture2](https://github.com/user-attachments/assets/105f9891-6e10-41fb-942e-a581ba87b68c)
+![Capture3](https://github.com/user-attachments/assets/1d96d12c-e254-4ee5-9988-e7b31ec4f32f)
+![Capture4](https://github.com/user-attachments/assets/ba50f673-279b-44f6-b06e-e8e8c9b0f075)
+
 ## การทดลองที่ 2: พื้นฐาน JavaScript
 ### 2.1 การประกาศตัวแปรและชนิดข้อมูล
 
